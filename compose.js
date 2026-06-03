@@ -50,3 +50,4 @@ function send_mail () {
         switch_to_page('inbox_page')
     })()
 }
+document.addEventListener('DOMContentLoaded', () => { const box = document.getElementById('compose-box'); if(box) box.rows = 15; });
